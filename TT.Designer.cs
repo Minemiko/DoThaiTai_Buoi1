@@ -101,6 +101,7 @@
             // 
             txtDS.Location = new Point(167, 103);
             txtDS.Name = "txtDS";
+            txtDS.ReadOnly = true;
             txtDS.Size = new Size(233, 33);
             txtDS.TabIndex = 2;
             // 
@@ -108,6 +109,7 @@
             // 
             txtT.Location = new Point(300, 142);
             txtT.Name = "txtT";
+            txtT.ReadOnly = true;
             txtT.Size = new Size(100, 33);
             txtT.TabIndex = 2;
             // 
@@ -115,6 +117,7 @@
             // 
             txtTL.Location = new Point(336, 181);
             txtTL.Name = "txtTL";
+            txtTL.ReadOnly = true;
             txtTL.Size = new Size(64, 33);
             txtTL.TabIndex = 2;
             // 
@@ -122,6 +125,7 @@
             // 
             txtTC.Location = new Point(136, 181);
             txtTC.Name = "txtTC";
+            txtTC.ReadOnly = true;
             txtTC.Size = new Size(64, 33);
             txtTC.TabIndex = 2;
             // 
@@ -152,6 +156,7 @@
             btnTT.TabIndex = 3;
             btnTT.Text = "Tiếp tục";
             btnTT.UseVisualStyleBackColor = true;
+            btnTT.Click += btnTT_Click;
             // 
             // btnT
             // 
@@ -185,6 +190,7 @@
             Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(5);
             Name = "TT";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "NHẬP DÃY SỐ VÀ TÍNH TỔNG";
             ResumeLayout(false);
             PerformLayout();

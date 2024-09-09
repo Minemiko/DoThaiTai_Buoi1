@@ -206,6 +206,7 @@
             Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(5);
             Name = "GPTB2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "GPTB2";
             ResumeLayout(false);
             PerformLayout();

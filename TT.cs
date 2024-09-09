@@ -50,5 +50,14 @@ namespace DoThaiTai_Buoi1
         {
             this.Close();
         }
+
+        private void btnTT_Click(object sender, EventArgs e)
+        {
+            txtNS.Clear();
+            txtDS.Clear();
+            txtT.Clear();
+            txtTC.Clear();
+            txtTL.Clear();
+        }
     }
 }

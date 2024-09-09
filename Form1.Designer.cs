@@ -99,6 +99,7 @@
             MainMenuStrip = menuStrip1;
             Margin = new Padding(6, 7, 6, 7);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "BÀI TẬP BUỔI 1";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();

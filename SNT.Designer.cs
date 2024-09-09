@@ -42,7 +42,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(86, 9);
+            label1.Location = new Point(115, 9);
             label1.Name = "label1";
             label1.Size = new Size(312, 33);
             label1.TabIndex = 0;
@@ -81,19 +81,22 @@
             txtS.Name = "txtS";
             txtS.Size = new Size(100, 33);
             txtS.TabIndex = 2;
+            txtS.TextChanged += txtS_TextChanged;
             // 
             // txtKT
             // 
             txtKT.Location = new Point(221, 108);
             txtKT.Name = "txtKT";
-            txtKT.Size = new Size(206, 33);
+            txtKT.ReadOnly = true;
+            txtKT.Size = new Size(301, 33);
             txtKT.TabIndex = 2;
             // 
             // txtSNT
             // 
             txtSNT.Location = new Point(221, 147);
             txtSNT.Name = "txtSNT";
-            txtSNT.Size = new Size(206, 33);
+            txtSNT.ReadOnly = true;
+            txtSNT.Size = new Size(301, 33);
             txtSNT.TabIndex = 2;
             // 
             // btnT
@@ -110,7 +113,7 @@
             // 
             AutoScaleDimensions = new SizeF(12F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(454, 210);
+            ClientSize = new Size(534, 210);
             Controls.Add(btnT);
             Controls.Add(txtSNT);
             Controls.Add(txtKT);
@@ -122,8 +125,8 @@
             Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(5);
             Name = "SNT";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "SỐ NGUYÊN TỐ";
-            Load += SNT_Load;
             ResumeLayout(false);
             PerformLayout();
         }
