@@ -16,5 +16,48 @@ namespace DoThaiTai_Buoi1
         {
             InitializeComponent();
         }
+
+        private void btnTH_Click(object sender, EventArgs e)
+        {
+            int a, b, c;
+            a = Convert.ToInt32(txtA.Text);
+            b = Convert.ToInt32(txtB.Text);
+            c = Convert.ToInt32(txtC.Text);
+            if (a >= b)
+            {
+                if (a >= c)
+                {
+                    txtKQ.Text = a.ToString();
+                }
+                else
+                {
+                    txtKQ.Text = c.ToString();
+                }
+            }
+            else if (b > a)
+            {
+                if (b >= c)
+                {
+                    txtKQ.Text = b.ToString();
+                }
+                else
+                {
+                    txtKQ.Text = c.ToString();
+                }
+            }
+        }
+
+        private void btnTT_Click(object sender, EventArgs e)
+        {
+            txtA.Clear();
+            txtB.Clear();
+            txtC.Clear();
+            txtKQ.Clear();
+        }
+
+        private void btnT_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

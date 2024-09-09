@@ -81,12 +81,14 @@
             tìmSốLớnNhấtTrong3SốToolStripMenuItem.Name = "tìmSốLớnNhấtTrong3SốToolStripMenuItem";
             tìmSốLớnNhấtTrong3SốToolStripMenuItem.Size = new Size(226, 22);
             tìmSốLớnNhấtTrong3SốToolStripMenuItem.Text = "Tìm số lớn nhất trong 3 số";
+            tìmSốLớnNhấtTrong3SốToolStripMenuItem.Click += tìmSốLớnNhấtTrong3SốToolStripMenuItem_Click;
             // 
             // đọcSốThànhChữToolStripMenuItem
             // 
             đọcSốThànhChữToolStripMenuItem.Name = "đọcSốThànhChữToolStripMenuItem";
             đọcSốThànhChữToolStripMenuItem.Size = new Size(226, 22);
             đọcSốThànhChữToolStripMenuItem.Text = "Đọc số thành chữ";
+            đọcSốThànhChữToolStripMenuItem.Click += đọcSốThànhChữToolStripMenuItem_Click;
             // 
             // Form1
             // 

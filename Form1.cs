@@ -24,5 +24,17 @@ namespace DoThaiTai_Buoi1
             SNT sNT = new SNT();
             sNT.Show();
         }
+
+        private void tìmSốLớnNhấtTrong3SốToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TSLN tSLN = new TSLN();
+            tSLN.Show();
+        }
+
+        private void đọcSốThànhChữToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DSTC dSTC = new DSTC();
+            dSTC.Show();
+        }
     }
 }

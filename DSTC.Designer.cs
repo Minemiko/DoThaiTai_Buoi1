@@ -1,6 +1,6 @@
 ﻿namespace DoThaiTai_Buoi1
 {
-    partial class TSLN
+    partial class DSTC
     {
         /// <summary>
         /// Required designer variable.
@@ -31,14 +31,9 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            txtA = new TextBox();
-            txtB = new TextBox();
+            txtS = new TextBox();
             txtC = new TextBox();
-            txtKQ = new TextBox();
             btnTH = new Button();
-            btnTT = new Button();
             btnT = new Button();
             SuspendLayout();
             // 
@@ -46,129 +41,82 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(99, 9);
             label1.Name = "label1";
-            label1.Size = new Size(330, 33);
+            label1.Size = new Size(223, 33);
             label1.TabIndex = 0;
-            label1.Text = "Tìm số lớn nhất trong 3 số";
+            label1.Text = "Đọc số thành chữ";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(12, 60);
+            label2.Location = new Point(12, 83);
             label2.Name = "label2";
-            label2.Size = new Size(115, 25);
+            label2.Size = new Size(229, 25);
             label2.TabIndex = 1;
-            label2.Text = "Nhập số A:";
+            label2.Text = "Nhập n ( từ 1 đến 9 ) :";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(12, 99);
+            label3.Location = new Point(12, 122);
             label3.Name = "label3";
-            label3.Size = new Size(115, 25);
+            label3.Size = new Size(91, 25);
             label3.TabIndex = 1;
-            label3.Text = "Nhập số B:";
+            label3.Text = "Kết quả:";
             // 
-            // label4
+            // txtS
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(12, 138);
-            label4.Name = "label4";
-            label4.Size = new Size(115, 25);
-            label4.TabIndex = 1;
-            label4.Text = "Nhập số C:";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(12, 177);
-            label5.Name = "label5";
-            label5.Size = new Size(91, 25);
-            label5.TabIndex = 1;
-            label5.Text = "Kết quả:";
-            // 
-            // txtA
-            // 
-            txtA.Location = new Point(133, 57);
-            txtA.Name = "txtA";
-            txtA.Size = new Size(74, 33);
-            txtA.TabIndex = 2;
-            // 
-            // txtB
-            // 
-            txtB.Location = new Point(133, 96);
-            txtB.Name = "txtB";
-            txtB.Size = new Size(74, 33);
-            txtB.TabIndex = 2;
+            txtS.Location = new Point(247, 80);
+            txtS.Name = "txtS";
+            txtS.Size = new Size(100, 33);
+            txtS.TabIndex = 2;
             // 
             // txtC
             // 
-            txtC.Location = new Point(133, 135);
+            txtC.Location = new Point(109, 119);
             txtC.Name = "txtC";
-            txtC.Size = new Size(74, 33);
+            txtC.ReadOnly = true;
+            txtC.Size = new Size(238, 33);
             txtC.TabIndex = 2;
-            // 
-            // txtKQ
-            // 
-            txtKQ.Location = new Point(133, 174);
-            txtKQ.Name = "txtKQ";
-            txtKQ.ReadOnly = true;
-            txtKQ.Size = new Size(207, 33);
-            txtKQ.TabIndex = 2;
             // 
             // btnTH
             // 
-            btnTH.Location = new Point(213, 57);
+            btnTH.Location = new Point(46, 167);
             btnTH.Name = "btnTH";
-            btnTH.Size = new Size(127, 33);
+            btnTH.Size = new Size(120, 33);
             btnTH.TabIndex = 3;
             btnTH.Text = "Thực hiện";
             btnTH.UseVisualStyleBackColor = true;
             btnTH.Click += btnTH_Click;
             // 
-            // btnTT
-            // 
-            btnTT.Location = new Point(213, 95);
-            btnTT.Name = "btnTT";
-            btnTT.Size = new Size(127, 33);
-            btnTT.TabIndex = 3;
-            btnTT.Text = "Tiếp tục";
-            btnTT.UseVisualStyleBackColor = true;
-            btnTT.Click += btnTT_Click;
-            // 
             // btnT
             // 
-            btnT.Location = new Point(213, 134);
+            btnT.Location = new Point(193, 167);
             btnT.Name = "btnT";
-            btnT.Size = new Size(127, 33);
+            btnT.Size = new Size(120, 33);
             btnT.TabIndex = 3;
             btnT.Text = "Thoát";
             btnT.UseVisualStyleBackColor = true;
             btnT.Click += btnT_Click;
             // 
-            // TSLN
+            // DSTC
             // 
             AutoScaleDimensions = new SizeF(12F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(352, 223);
+            ClientSize = new Size(367, 228);
             Controls.Add(btnT);
-            Controls.Add(btnTT);
             Controls.Add(btnTH);
-            Controls.Add(txtKQ);
             Controls.Add(txtC);
-            Controls.Add(txtB);
-            Controls.Add(txtA);
-            Controls.Add(label5);
-            Controls.Add(label4);
+            Controls.Add(txtS);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Tahoma", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(5);
-            Name = "TSLN";
+            Name = "DSTC";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "TÌM SỐ LỚN NHẤT";
+            Text = "DSTC";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -178,14 +126,9 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private Label label4;
-        private Label label5;
-        private TextBox txtA;
-        private TextBox txtB;
+        private TextBox txtS;
         private TextBox txtC;
-        private TextBox txtKQ;
         private Button btnTH;
-        private Button btnTT;
         private Button btnT;
     }
 }
